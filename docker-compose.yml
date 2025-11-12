@@ -11,9 +11,8 @@ services:
       - service_persistence_default=yes
       - logging_level=INFO
     ports:
-      - "55555:55555"
       - "8080:8080"
-      - "943:943"
+      - "55555:55555"
     restart: always
     networks:
       - solace-net
@@ -26,7 +25,6 @@ services:
       - SOLACE_SCRAPE_URI=http://solace:8080
       - SOLACE_USERNAME=admin
       - SOLACE_PASSWORD=admin
-      - EXPORTER_PORT=9628
       - SOLACE_TIMEOUT=5s
       - SOLACE_SSL_VERIFY=false
     ports:
@@ -98,4 +96,4 @@ networks:
 volumes:
   prometheus_data: {}
   grafana_data: {}
-
+  
