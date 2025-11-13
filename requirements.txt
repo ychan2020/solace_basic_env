@@ -1,1 +1,3 @@
 solace-pubsubplus
+requests
+flask
