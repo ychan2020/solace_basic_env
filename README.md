@@ -30,5 +30,5 @@ Grafana: http://localhost:3000/
 <img width="2537" height="854" alt="Image" src="https://github.com/user-attachments/assets/f2c9e657-b265-4ea2-8670-409499671b25" />
 Publisher log  
 <img width="1934" height="156" alt="Image" src="https://github.com/user-attachments/assets/f92e0137-51df-4447-a458-98aa2a2a1075" />
-Subscriber: http://localhost:5000/
+Subscriber: http://localhost:5000/  
 <img width="487" height="433" alt="Image" src="https://github.com/user-attachments/assets/e033f6b1-6424-4684-8ba3-3c2f77dc62d5" />
